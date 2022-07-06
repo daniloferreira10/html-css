@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela</title>
+    <style>
+        table { 
+            width: 600px;
+            height: 100px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Tabela Completo</h1>
+    <table>
+        <!-- 1º LINHA -->
+        <tr>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+        </tr>
+
+         <!--2º LINHA-->
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <!-- 3º LINHA -->
+        <tr>
+           
+            <td>Beatriz Souza</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <!-- 4ºLINHA -->
+        <tr>
+            
+            <td>Claúdia Melo</td>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+        </tr>
+        <!-- 5ºLINHA -->
+        <tr>
+            <th rowspan="3">Homens</th>
+            <th>17</th>
+            <th>18</th>
+            <th>19</th>
+            <th>20</th>
+        </tr>
+        <!-- 6ºLINHA -->
+        <tr>
+            <th>22</th>
+            <th>23</th>
+            <th>24</th>
+            <th>25</th>
+        </tr>
+        <!-- 7ºLINHA -->
+        <tr>
+            <th>27</th>
+            <th>28</th>
+            <th>29</th>
+            <th>30</th>
+        </tr>
+
+    </table>
+</body>
+</html>
