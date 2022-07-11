@@ -16,6 +16,25 @@
             border: 2px solid black;
               
         }
+        
+        ul > li {
+            display: inline;
+            list-style: none;
+        }
+
+        li > a {
+            text-decoration: none;
+            color: black;
+            float: left;
+            text-transform: uppercase;
+            text-align: center;
+            border-right: 1px solid #fff;
+            padding: 10px 20px;
+            color: #fff;
+            background: rgb(34, 122, 199);
+            font-size: 14px;
+            font-weight: bold;
+        }
     </style>
 
 </head>
@@ -24,12 +43,13 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem commodi, esse quo molestiae exercitationem possimus praesentium sequi laboriosam ipsa numquam nisi cum repellendus rerum ullam nesciunt doloremque necessitatibus in!</p>
     <ul>
         <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
-        <li><a href="#">Segunda página</a></li>
-        <li><a href="#">Terceira página</a></li>
+        <li><a href="paginas-extras/pag002a.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+        <br>
     </ul>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur nisi expedita quaerat dicta? At laborum perferendis nisi, delectus repellendus illum earum fugit quis ipsum, provident obcaecati incidunt reprehenderit ipsa natus!
     </p>
-    <iframe id="tela" name="frame" src="" frameborder="0">
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha um das opções acima</h1>" frameborder="0">
         <p>Infelizmente seu navegador não é compatível com isso.</p>
     </iframe>
 
